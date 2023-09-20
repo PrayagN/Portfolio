@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
+import ScrollButton from "./components/ScrollButton";
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal, "sdf");
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <ScrollButton/>
       <Banner />
       <Skills />
       <Projects openModal={openModal} setOpenModal={setOpenModal} />

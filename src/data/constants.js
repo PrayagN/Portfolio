@@ -228,7 +228,7 @@ export const projects = [
     title: "Book My Show",
     date: "Jan 2023 - Jan 2023",
     description:
-      "It is a clone web application of DigiLocker Which i made in the early stage of learning web design. ",
+      "It is a clone web application of Book My Show Which i made in the early stage of learning web design. ",
     image: bookmyshow,
     tags: ["Html", "Css", "Javascript"],
     category: "static web app",
