@@ -6,7 +6,6 @@ import navIcon2 from "../assets/images/instagram.svg";
 import navIcon3 from "../assets/images/github-icon.svg";
 import { links } from "../data/constants";
 import { BrowserRouter as Router } from "react-router-dom";
-
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -34,7 +33,7 @@ function NavBar() {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            {/* <img src={logo} alt="logo" /> */}
+            {/* <img src={portfolio} alt="logo" /> */}
             <h1 className="logo">Portfolio</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
