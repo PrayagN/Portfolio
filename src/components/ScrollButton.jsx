@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 function ScrollButton() {
   const [showButton, setShowButton] = useState(false);
 
@@ -26,7 +25,7 @@ function ScrollButton() {
   const buttonStyle = {
     position: "fixed",
     bottom: "3rem",
-    right: "3rem",
+    right: "1rem",
     padding: "1rem",
     borderRadius: "50%",
     backgroundColor: "#854CE6",
@@ -38,7 +37,7 @@ function ScrollButton() {
   return (
     <>
       <button style={buttonStyle} onClick={scrollToTop}>
-        <KeyboardArrowUpIcon />
+        <ArrowUpwardIcon />
       </button>
     </>
   );
