@@ -1,6 +1,6 @@
 import React, { useState } from "react"; // Import React
 import "./App.css"; // Import your CSS file
-import NavBar from "./components/Navbar"; // Correct the import to match the file name
+import NavBar from "./components/NavBar"; // Correct the import to match the file name
 import "bootstrap/dist/css/bootstrap.min.css";
 import Banner from "./components/Banner";
 import Skills from "./components/Skills";
