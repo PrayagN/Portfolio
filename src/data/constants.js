@@ -256,8 +256,8 @@ export const projects = [
     image: weather,
     tags: ["Vite js", "OpenWeatherApi","Css"],
     category: "dynamic web app",
-    github: "https://github.com/PrayagN/WeatherAPP",
-    // webapp: "https://github.com/rishavchanda/Job-finder-App",
+    github: "https://github.com/PrayagN/weatherWeb",
+    webapp: "https://prayagn.github.io/weatherWeb/",
   },
   {
     id: 4,
