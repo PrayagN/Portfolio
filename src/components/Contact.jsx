@@ -6,7 +6,9 @@ import TrackVisibility from "react-on-screen";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 function Contact() {
-    
+    const serviceID =import.meta.env.VITE_ServiceID;
+    const templateId=  import.meta.env.VITE_TemplateID ;
+    const publicKey =import.meta.env.VITE_PublicKey;
     const [loader,setLoader] = useState(false)
     const form = useRef();
     const firstNameRef = useRef(); 
@@ -23,7 +25,7 @@ function Contact() {
         setLoader(true)
       e.preventDefault();
   
-      emailjs.sendForm(import.meta.env.VITE_ServiceID, import.meta.env.VITE_TemplateID, form.current, import.meta.env.VITE_PublicKey)
+      emailjs.sendForm(serviceID, templateId, form.current, publicKey)
       .then((result) => {
         toast.success("Message sent.", {
           position: "top-center",
