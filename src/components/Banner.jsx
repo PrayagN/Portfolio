@@ -4,6 +4,7 @@ import headerImg from "../assets/images/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import me from '../assets/images/me.jfif';
+import hero from '../assets/images/hero.jpeg';
 import { resume } from "../data/constants";
 
 function Banner() {
@@ -106,7 +107,7 @@ function Banner() {
                   }
                   style={{display:'flex', justifyContent:'center'}}
                 >
-                  <img src={me} alt="Header Img" />
+                  <img src={hero} alt="Header Img" />
                 </div>
               )}
             </TrackVisibility>
