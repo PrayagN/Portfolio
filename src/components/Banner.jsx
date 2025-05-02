@@ -78,10 +78,8 @@ function Banner() {
                     </span>
                   </h1>
                   <p>
-                    Self-taught MERN stack developer proficient in MongoDB,
-                    Express.js, React.js, and Node.js. Builds dynamic web apps
-                    and efficient RESTful APIs. Committed to continuous learning
-                    and delivering high-quality solutions.
+                    Proactive, self-taught Full Stack Developer with nearly 2 years of experience in building dynamic web applications and integrating cutting-edge technologies. Skilled in both front-end and back-end development, real-time communication tools, and AI-powered applications. Adept at leveraging tools like React Native, LiveKit, and Firebase to deliver user-
+centric solutions. Committed to creating products that drive technological innovation and support business growth. Dedicated 6–8 months in a co-working space for intensive self-learning and project building, with a focus on modern web technologies.
                   </p>
                   <a
                     href={resume}
