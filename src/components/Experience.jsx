@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 // Work experience data (from your resume)
 const EXPERIENCE = [
@@ -33,7 +32,7 @@ const EXPERIENCE = [
   }
 ];
 
-function Experience() {
+export default function Experience() {
   return (
     <section id="experience" className="py-16 bg-[#0f172a] text-white">
       <div className="max-w-5xl mx-auto px-6">
@@ -41,12 +40,8 @@ function Experience() {
 
         <div className="space-y-10">
           {EXPERIENCE.map((job, idx) => (
-            <motion.div
+            <div
               key={idx}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: idx * 0.1 }}
-              viewport={{ once: true }}
               className="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-md shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
@@ -66,11 +61,10 @@ function Experience() {
                   <li key={i}>{point}</li>
                 ))}
               </ul>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
     </section>
   );
 }
-export default Experience;
