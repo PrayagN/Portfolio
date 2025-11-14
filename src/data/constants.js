@@ -13,7 +13,7 @@ import jwt from '../assets/images/jwt.png';
 import socket from '../assets/images/socket.png';
 import render from '../assets/images/render.png';
 
-export const resume ="https://drive.google.com/file/d/1peBifcMupeJrnC4iyaky7sQk1wp6gXau/view?usp=sharing";
+export const resume ="https://drive.google.com/file/d/1fJN6Lf_CTQlsbsBRreqQrNQc_jwOpI-R/view?usp=sharing";
 
 export const links =
   {
