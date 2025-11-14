@@ -21,7 +21,7 @@ function App() {
       <ScrollButton/>
       <Banner />
       <Skills />
-      <Experience/>
+      <Experience />
       <Projects openModal={openModal} setOpenModal={setOpenModal} />
       {openModal.state && 
         <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
