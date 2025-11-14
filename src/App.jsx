@@ -14,7 +14,6 @@ import Footer from "./components/Footer";
 import ScrollButton from "./components/ScrollButton";
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal, "sdf");
 
   return (
     <div className="App">
