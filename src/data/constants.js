@@ -229,10 +229,11 @@ skills: [
 // Replaced broken Render
 { name: "Render", image: "https://pbs.twimg.com/profile_images/1735434212990169088/WoNsBQOA_400x400.jpg" },
 { name: "Figma", image: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg" },
-  }
+  
 // Added
-];
-
+]
+}
+  ];
 export const projects = [
   {
     id: 9,
