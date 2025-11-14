@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar"; // Correct the import to match the fil
 import "bootstrap/dist/css/bootstrap.min.css";
 import Banner from "./components/Banner";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 import Contact from "./components/Contact";
