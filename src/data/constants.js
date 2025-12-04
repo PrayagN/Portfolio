@@ -12,15 +12,16 @@ import pollstation from '../assets/images/pollSystem.png';
 import jwt from '../assets/images/jwt.png';
 import socket from '../assets/images/socket.png';
 import render from '../assets/images/render.png';
+import ragProject from '../assets/images/rag_project.png';
 
-export const resume ="https://drive.google.com/file/d/1fJN6Lf_CTQlsbsBRreqQrNQc_jwOpI-R/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1fJN6Lf_CTQlsbsBRreqQrNQc_jwOpI-R/view?usp=sharing";
 
 export const links =
-  {
-    linkedin:"https://www.linkedin.com/in/prayagn/",
-    github:"https://github.com/PrayagN",
-    instgram:"https://www.instagram.com/prayag333/"
-  }
+{
+  linkedin: "https://www.linkedin.com/in/prayagn/",
+  github: "https://github.com/PrayagN",
+  instgram: "https://www.instagram.com/__pray_ag_/"
+}
 
 
 // export const skills = [
@@ -171,70 +172,91 @@ export const links =
 // ];
 
 export const skills = [
-{
-title: "Frontend",
-skills: [
-{ name: "React Js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
-{ name: "Redux", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
-{ name: "HTML", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" },
-{ name: "CSS", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" },
-{ name: "JavaScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
-{ name: "Bootstrap", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" },
-{ name: "Material UI", image: "https://mui.com/static/logo.png" },
-{ name: "Tailwind CSS", image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
-// Added
-{ name: "React Native", image: "https://reactnative.dev/img/header_logo.svg" },
-{ name: "Next.js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" },
-{ name: "Remix", image: "https://remix.run/img/og.1.jpg" },
-{ name: "TypeScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
-{ name: "Zustand", image: "https://avatars.githubusercontent.com/u/70919043?s=200&v=4" },
-{ name: "Expo", image: "https://avatars.githubusercontent.com/u/12504344?s=200&v=4" },
-{ name: "Shopify", image: "https://cdn.worldvectorlogo.com/logos/shopify.svg" }
-]
-},
-{
-title: "Backend",
-skills: [
-{ name: "Node Js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
-{ name: "Express Js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" },
-{ name: "MySQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" },
-{ name: "Postgresql", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" },
-{ name: "MongoDB", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" },
-{ name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
-{ name: "REST API", image: "https://www.vectorlogo.zone/logos/json/json-icon.svg" },
-// Replaced broken
-{ name: "JWT", image: "https://avatars.githubusercontent.com/u/10998651?s=200&v=4" },
-{ name: "Socket.IO", image: "https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" },
-// Added
-{ name: "FastAPI", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" },
-{ name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
-{ name: "OpenAI API", image: "https://www.webfx.com/wp-content/uploads/2023/07/what-is-openai.png" },
-{ name: "Stripe", image: "https://cdn.worldvectorlogo.com/logos/stripe-4.svg" },
-{ name: "Razorpay", image: "https://cdn.worldvectorlogo.com/logos/razorpay.svg" },
-{ name: "Twilio", image: "https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" },
-{ name: "OAuth 2.0", image: "https://i.pcmag.com/imagery/reviews/04syxCXYgOp2n7ORxuXtTVz-1..v1726696178.jpg" },
-{ name: "ChromaDB", image: "https://ubos.tech/wp-content/uploads/2023/11/chroma.png" },
-{ name: "LiveKit", image: "https://avatars.githubusercontent.com/u/103309724?s=200&v=4" }
-]
-},
-{
-title: "Others",
-skills: [
-{ name: "Git", image: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" },
-{ name: "GitHub", image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
-{ name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" },
-{ name: "Netlify", image: "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" },
-{ name: "VS Code", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" },
-{ name: "Postman", image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
-// Replaced broken Render
-{ name: "Render", image: "https://pbs.twimg.com/profile_images/1735434212990169088/WoNsBQOA_400x400.jpg" },
-{ name: "Figma", image: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg" },
-  
-// Added
-]
-}
-  ];
+  {
+    title: "Frontend",
+    skills: [
+      { name: "React Js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
+      { name: "Redux", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+      { name: "HTML", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" },
+      { name: "CSS", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" },
+      { name: "JavaScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
+      { name: "Bootstrap", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" },
+      { name: "Material UI", image: "https://mui.com/static/logo.png" },
+      { name: "Tailwind CSS", image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
+      // Added
+      { name: "React Native", image: "https://reactnative.dev/img/header_logo.svg" },
+      { name: "Next.js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" },
+      { name: "Remix", image: "https://remix.run/img/og.1.jpg" },
+      { name: "TypeScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
+      { name: "Zustand", image: "https://avatars.githubusercontent.com/u/70919043?s=200&v=4" },
+      { name: "Expo", image: "https://avatars.githubusercontent.com/u/12504344?s=200&v=4" },
+      { name: "Shopify", image: "https://cdn.worldvectorlogo.com/logos/shopify.svg" }
+    ]
+  },
+  {
+    title: "Backend",
+    skills: [
+      { name: "Node Js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
+      { name: "Express Js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" },
+      { name: "MySQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" },
+      { name: "Postgresql", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" },
+      { name: "MongoDB", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" },
+      { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
+      { name: "REST API", image: "https://www.vectorlogo.zone/logos/json/json-icon.svg" },
+      // Replaced broken
+      { name: "JWT", image: "https://avatars.githubusercontent.com/u/10998651?s=200&v=4" },
+      { name: "Socket.IO", image: "https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" },
+      // Added
+      { name: "FastAPI", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" },
+      { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
+      { name: "OpenAI API", image: "https://www.webfx.com/wp-content/uploads/2023/07/what-is-openai.png" },
+      { name: "Stripe", image: "https://cdn.worldvectorlogo.com/logos/stripe-4.svg" },
+      { name: "Razorpay", image: "https://cdn.worldvectorlogo.com/logos/razorpay.svg" },
+      { name: "Twilio", image: "https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" },
+      { name: "OAuth 2.0", image: "https://i.pcmag.com/imagery/reviews/04syxCXYgOp2n7ORxuXtTVz-1..v1726696178.jpg" },
+      { name: "ChromaDB", image: "https://ubos.tech/wp-content/uploads/2023/11/chroma.png" },
+      { name: "LiveKit", image: "https://avatars.githubusercontent.com/u/103309724?s=200&v=4" }
+    ]
+  },
+  {
+    title: "Others",
+    skills: [
+      { name: "Git", image: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" },
+      { name: "GitHub", image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" },
+      { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" },
+      { name: "Netlify", image: "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" },
+      { name: "VS Code", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" },
+      { name: "Postman", image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
+      // Replaced broken Render
+      { name: "Render", image: "https://pbs.twimg.com/profile_images/1735434212990169088/WoNsBQOA_400x400.jpg" },
+      { name: "Figma", image: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg" },
+
+      // Added
+    ]
+  }
+];
 export const projects = [
+  {
+    id: 11,
+    title: "RAG System with FastAPI & LLMs",
+    date: "2024",
+    description: "Created a full-stack AI-powered semantic search and Q&A platform that enables intelligent querying over custom PDF and text documents. Features include file uploads, document chunking, semantic embeddings with SentenceTransformers, vector storage in ChromaDB, and streaming AI responses using Ollama/Llama2.",
+    image: ragProject,
+    tags: [
+      "FastAPI",
+      "Python",
+      "React Js",
+      "Tailwind Css",
+      "ChromaDB",
+      "Ollama",
+      "Llama2",
+      "Socket.IO",
+      "SentenceTransformers"
+    ],
+    category: "dynamic web app",
+    github: "https://github.com/PrayagN/RAG-Flow-Frontend",
+    webapp: "",
+  },
   {
     id: 9,
     title: "Eventos",
@@ -269,7 +291,7 @@ export const projects = [
     description:
       " Developed an E-commerce Website in Node.js for purchasing computer accessories. The database for the website was designed using MongoDB. ",
     image: lapmania,
-    tags: ["EJS","MVC Structure","MongoDB","Node JS","Twilio","Bootstrap","Razorpay","Nginx","AWS","Figma"],
+    tags: ["EJS", "MVC Structure", "MongoDB", "Node JS", "Twilio", "Bootstrap", "Razorpay", "Nginx", "AWS", "Figma"],
     category: "dynamic web app",
     github: "https://github.com/PrayagN/E-commerce-LapMania",
     webapp: "http://lapmania.online/",
@@ -318,7 +340,7 @@ export const projects = [
     description:
       "Weather App that getting real-time data from OpenWeatherApi and also integrated hourly,daily weather podcast.The background wil change according to the weather conditions. ",
     image: weather,
-    tags: ["Vite js", "OpenWeatherApi","Css"],
+    tags: ["Vite js", "OpenWeatherApi", "Css"],
     category: "dynamic web app",
     github: "https://github.com/PrayagN/weatherWeb",
     webapp: "https://prayagn.github.io/weatherWeb/",
@@ -353,8 +375,8 @@ export const projects = [
     description:
       "OLX clone created with react and Firebase authentications.",
     image:
-    olx,
-    tags: ["React Js", "Firebase", "FireStore","Css"],
+      olx,
+    tags: ["React Js", "Firebase", "FireStore", "Css"],
     category: "dynamic web app",
     github: "https://github.com/PrayagN/Olx",
     // webapp: "https://breaking-bad-webapp.netlify.app",
@@ -366,8 +388,8 @@ export const projects = [
     description:
       "Simple Todo App created by react , we can add and delete tasks through this app also used localstorage.",
     image:
-    todo,
-    tags: ["React Js","localStorage","Css","Docker"],
+      todo,
+    tags: ["React Js", "localStorage", "Css", "Docker"],
     category: "static web app",
     github: "https://github.com/PrayagN/ToDo",
     // webapp: "https://github.com/rishavchanda/Quiz-Earn",
@@ -379,8 +401,8 @@ export const projects = [
     description:
       "Its a simple polling system with getting name,voting choice and date . Also we can see the trend analysis in different graphs",
     image:
-    pollstation,
-    tags: ["React Js","Node Js","Postgres","Postman","Material UI","Express"],
+      pollstation,
+    tags: ["React Js", "Node Js", "Postgres", "Postman", "Material UI", "Express"],
     category: "dynamic web app",
     github: "https://github.com/PrayagN/Poll-System",
     // webapp: "/",

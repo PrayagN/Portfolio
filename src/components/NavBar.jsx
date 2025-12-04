@@ -60,6 +60,15 @@ function NavBar() {
                 Skills
               </Nav.Link>
               <Nav.Link
+                href="#experience"
+                className={
+                  activeLink === "experience" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("experience")}
+              >
+                Experience
+              </Nav.Link>
+              <Nav.Link
                 href="#projects"
                 className={
                   activeLink === "projects"
@@ -77,7 +86,7 @@ function NavBar() {
                 <a href={links.linkedin} target="_blank">
                   <img src={navIcon1} alt="" />
                 </a>
-               
+
                 <a href={links.github} target="_blank">
                   <img src={navIcon3} alt="" />
                 </a>
@@ -87,9 +96,9 @@ function NavBar() {
               </div>
               <a href="#connect">
 
-              <button className="navbar-connect">
-                <span>Let’s Connect</span>
-              </button>
+                <button className="navbar-connect">
+                  <span>Let’s Connect</span>
+                </button>
               </a>
             </span>
           </Navbar.Collapse>

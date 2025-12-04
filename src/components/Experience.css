@@ -1,0 +1,87 @@
+.experience {
+  padding: 80px 0;
+  position: relative;
+}
+
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.experience-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 30px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.experience-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-5px);
+}
+
+.experience-item h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.experience-item h4 {
+  font-size: 20px;
+  color: #B8B8B8;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.experience-item .duration {
+  font-size: 16px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.experience-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-item ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #B8B8B8;
+}
+
+.experience-item ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.experience-item .tech-stack {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.experience-item .tech-badge {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

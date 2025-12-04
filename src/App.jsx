@@ -18,17 +18,17 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <ScrollButton/>
+      <ScrollButton />
       <Banner />
       <Skills />
-      {/* <Experience />  */}
+      <Experience />
       <Projects openModal={openModal} setOpenModal={setOpenModal} />
-      {openModal.state && 
+      {openModal.state &&
         <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <Contact/>
-      <Footer/>
-      <ToastContainer/>
+      <Contact />
+      <Footer />
+      <ToastContainer />
     </div>
   );
 }
