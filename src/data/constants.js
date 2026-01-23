@@ -13,6 +13,7 @@ import jwt from '../assets/images/jwt.png';
 import socket from '../assets/images/socket.png';
 import render from '../assets/images/render.png';
 import ragProject from '../assets/images/rag_project.png';
+import alchemy from '../assets/images/alchemy.png';
 
 export const resume = "https://drive.google.com/file/d/1fJN6Lf_CTQlsbsBRreqQrNQc_jwOpI-R/view?usp=sharing";
 
@@ -259,6 +260,28 @@ export const skills = [
   }
 ];
 export const projects = [
+  {
+    id: 12,
+    title: "Alchemy AI: The Content Transmutation Engine",
+    date: "2025",
+    description: "A premium AI-powered SaaS platform that repurposes raw material (blogs, YouTube URLs, notes) into high-engagement social media content for LinkedIn, Twitter, Instagram, TikTok, Medium, and Newsletters. Solves the 'blank page' problem for creators by building a robust automation pipeline that extracts insights and styles them for viral potential using a multi-LLM orchestration layer (Llama 3.3, Gemini 2.0 Flash).",
+    image: alchemy,
+    tags: [
+      "Next.js 16",
+      "TypeScript",
+      "Prisma ORM",
+      "Groq SDK",
+      "Gemini 2.0",
+      "Puppeteer",
+      "Tailwind CSS 4",
+      "Framer Motion",
+      "Clerk Auth",
+      "PostHog"
+    ],
+    category: "dynamic web app",
+    github: "https://github.com/PrayagN/Alchemy-AI",
+    webapp: "https://alchemy-ai-amber.vercel.app/",
+  },
   {
     id: 11,
     title: "RAG System with FastAPI & LLMs",
