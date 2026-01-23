@@ -15,7 +15,7 @@ import render from '../assets/images/render.png';
 import ragProject from '../assets/images/rag_project.png';
 import alchemy from '../assets/images/alchemy.png';
 
-export const resume = "https://drive.google.com/file/d/1fJN6Lf_CTQlsbsBRreqQrNQc_jwOpI-R/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1O4YNBUWbmorW3BNG1O08pbClEYQR3E2D/view?usp=sharing";
 
 export const Bio = {
   name: "Prayag N",
