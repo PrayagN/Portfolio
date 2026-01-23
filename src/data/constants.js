@@ -16,6 +16,29 @@ import ragProject from '../assets/images/rag_project.png';
 
 export const resume = "https://drive.google.com/file/d/1fJN6Lf_CTQlsbsBRreqQrNQc_jwOpI-R/view?usp=sharing";
 
+export const Bio = {
+  name: "Prayag N",
+  roles: [
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
+  ],
+  description:
+    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning and growing, I am dedicated to delivering high-quality work and making a positive impact. I am a professional Full Stack Developer specializing in MERN stack, React, and Node.js.",
+  github: "https://github.com/PrayagN",
+  linkedin: "https://www.linkedin.com/in/prayagn/",
+  twitter: "https://twitter.com/",
+  insta: "https://www.instagram.com/__pray_ag_/",
+};
+
+export const SEOData = {
+  title: "Prayag N | Full Stack & MERN Stack Developer Portfolio",
+  description: "Portfolio of Prayag N, a Full Stack Developer specializing in MERN Stack (MongoDB, Express, React, Node.js). Explore my projects and skills in frontend and backend development.",
+  keywords: "Full Stack Developer, MERN Stack Developer, Frontend Developer, Backend Developer, Prayag N, Portfolio, React Developer, Node.js Developer, Web Development, India",
+  url: "https://prayagn.netlify.app/",
+};
+
 export const links =
 {
   linkedin: "https://www.linkedin.com/in/prayagn/",

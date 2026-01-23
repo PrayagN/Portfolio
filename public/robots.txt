@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prayagn.netlify.app/sitemap.xml

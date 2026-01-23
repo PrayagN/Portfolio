@@ -12,11 +12,19 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
 import ScrollButton from "./components/ScrollButton";
+import SEO from "./components/SEO";
+import { SEOData } from "./data/constants";
+
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
 
   return (
     <div className="App">
+      <SEO
+        title={SEOData.title}
+        description={SEOData.description}
+        keywords={SEOData.keywords}
+      />
       <NavBar />
       <ScrollButton />
       <Banner />

@@ -21,6 +21,7 @@
     "react-bootstrap": "^2.8.0",
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
     "react-multi-carousel": "^2.8.4",
     "react-on-screen": "^2.1.1",
     "react-router-dom": "^6.16.0",
