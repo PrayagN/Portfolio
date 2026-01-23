@@ -78,9 +78,9 @@ function Banner() {
                     </span>
                   </h1>
                   <p>
-                   Proactive Full Stack Developer with 2 years of experience, building scalable web and mobile applications. Skilled in
-React, Node.js, and modern full-stack frameworks. Experienced in real-time communication, AI integration, and cloud
-deployment. Passionate about building fast, user-focused products that drive business growth and innovation.
+                    Proactive Full Stack Developer with 2+ years of experience, building scalable web and mobile applications. Skilled in
+                    React, Node.js, and modern full-stack frameworks. Experienced in real-time communication, AI integration, and cloud
+                    deployment. Passionate about building fast, user-focused products that drive business growth and innovation.
                   </p>
                   <a
                     href={resume}
@@ -92,7 +92,7 @@ deployment. Passionate about building fast, user-focused products that drive bus
                       Check Resume <ArrowRightCircle size={25} />
                     </button>
                   </a>
-                  
+
                 </div>
               )}
             </TrackVisibility>
@@ -104,7 +104,7 @@ deployment. Passionate about building fast, user-focused products that drive bus
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
-                  style={{display:'flex', justifyContent:'center'}}
+                  style={{ display: 'flex', justifyContent: 'center' }}
                 >
                   <img src={hero} alt="Header Img" />
                 </div>

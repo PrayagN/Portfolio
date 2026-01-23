@@ -210,7 +210,7 @@ export const skills = [
       // Added
       { name: "React Native", image: "https://reactnative.dev/img/header_logo.svg" },
       { name: "Next.js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" },
-      { name: "Remix", image: "https://remix.run/img/og.1.jpg" },
+      { name: "Remix", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKU1nkPkLXDQoaT0hDUlLT6jDIJXA5d3cjGQ&s" },
       { name: "TypeScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
       { name: "Zustand", image: "https://avatars.githubusercontent.com/u/70919043?s=200&v=4" },
       { name: "Expo", image: "https://avatars.githubusercontent.com/u/12504344?s=200&v=4" },
