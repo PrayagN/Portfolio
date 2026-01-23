@@ -66,7 +66,7 @@ function Footer() {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Prayag N. All rights reserved.</Copyright>
+        <Copyright>&copy; 2026 Prayag N. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
