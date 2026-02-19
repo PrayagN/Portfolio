@@ -14,6 +14,7 @@ import socket from '../assets/images/socket.png';
 import render from '../assets/images/render.png';
 import ragProject from '../assets/images/rag_project.png';
 import alchemy from '../assets/images/alchemy.png';
+import employeeFilter from '../assets/images/employee_filter.png';
 
 export const resume = "https://drive.google.com/file/d/1O4YNBUWbmorW3BNG1O08pbClEYQR3E2D/view?usp=sharing";
 
@@ -260,6 +261,26 @@ export const skills = [
   }
 ];
 export const projects = [
+  {
+    id: 13,
+    title: "Employee Filter System: Enterprise Data Engine",
+    date: "2024",
+    description: "A high-performance enterprise-grade data filtering engine built for complex datasets. Features a dynamic query builder for sophisticated filtering with specialized operators, nested data support, and 60FPS responsive UI. Implements grouped OR/AND logic and persistent user preferences.",
+    image: employeeFilter,
+    tags: [
+      "React 19",
+      "TypeScript",
+      "MUI v6",
+      "Lucide Icons",
+      "Custom Hooks",
+      "useMemo",
+      "localStorage",
+      "CSV Export"
+    ],
+    category: "dynamic web app",
+    github: "https://github.com/PrayagN/Dynamic-Filter-System",
+    webapp: "https://dynamic-filter-system-ruby.vercel.app/",
+  },
   {
     id: 12,
     title: "Alchemy AI: The Content Transmutation Engine",
