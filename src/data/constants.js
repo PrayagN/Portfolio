@@ -17,7 +17,7 @@ import alchemy from '../assets/images/alchemy.png';
 import employeeFilter from '../assets/images/employee_filter.png';
 import playonmeet from '../assets/images/playonmeet.png';
 
-export const resume = "https://drive.google.com/file/d/1O4YNBUWbmorW3BNG1O08pbClEYQR3E2D/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1LdLmmjBcYLeTi5AOB511QiHBN5iSST-k/view?usp=sharing";
 
 export const Bio = {
   name: "Prayag N",
@@ -284,7 +284,7 @@ export const projects = [
   {
     id: 13,
     title: "Employee Filter System: Enterprise Data Engine",
-    date: "2024",
+    date: "2026",
     description: "A high-performance enterprise-grade data filtering engine built for complex datasets. Features a dynamic query builder for sophisticated filtering with specialized operators, nested data support, and 60FPS responsive UI. Implements grouped OR/AND logic and persistent user preferences.",
     image: employeeFilter,
     tags: [
@@ -326,7 +326,7 @@ export const projects = [
   {
     id: 11,
     title: "RAG System with FastAPI & LLMs",
-    date: "2024",
+    date: "2025",
     description: "Created a full-stack AI-powered semantic search and Q&A platform that enables intelligent querying over custom PDF and text documents. Features include file uploads, document chunking, semantic embeddings with SentenceTransformers, vector storage in ChromaDB, and streaming AI responses using Ollama/Llama2.",
     image: ragProject,
     tags: [
