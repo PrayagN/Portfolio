@@ -15,6 +15,7 @@ import render from '../assets/images/render.png';
 import ragProject from '../assets/images/rag_project.png';
 import alchemy from '../assets/images/alchemy.png';
 import employeeFilter from '../assets/images/employee_filter.png';
+import playonmeet from '../assets/images/playonmeet.png';
 
 export const resume = "https://drive.google.com/file/d/1O4YNBUWbmorW3BNG1O08pbClEYQR3E2D/view?usp=sharing";
 
@@ -261,6 +262,25 @@ export const skills = [
   }
 ];
 export const projects = [
+  {
+    id: 14,
+    title: "PlayOnMeet: Social Gaming Redefined",
+    date: "2026",
+    description: "The ultimate gesture-controlled gaming experience for video calls. PlayOnMeet brings seamless multiplayer games to your remote sessions—no download, just pure interaction. Features real-time hand gesture tracking via MediaPipe and a premium glassmorphism UI.",
+    image: playonmeet,
+    tags: [
+      "Next.js 16",
+      "MediaPipe",
+      "WebRTC",
+      "PeerJS",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Google Sheets API"
+    ],
+    category: "dynamic web app",
+    github: "https://github.com/PrayagN/AirTac",
+    webapp: "https://playonmeet.vercel.app/",
+  },
   {
     id: 13,
     title: "Employee Filter System: Enterprise Data Engine",
