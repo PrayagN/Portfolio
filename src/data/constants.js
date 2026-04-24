@@ -17,7 +17,7 @@ import alchemy from '../assets/images/alchemy.png';
 import employeeFilter from '../assets/images/employee_filter.png';
 import playonmeet from '../assets/images/playonmeet.png';
 
-export const resume = "https://drive.google.com/file/d/1LdLmmjBcYLeTi5AOB511QiHBN5iSST-k/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1eWjUk0DM70HrT6NVgsDG5uGmYQsBid5a/view?usp=sharing";
 
 export const Bio = {
   name: "Prayag N",
