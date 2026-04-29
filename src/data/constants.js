@@ -19,7 +19,7 @@ import playonmeet from '../assets/images/playonmeet.png';
 import portfilio from '../assets/images/portfilio.png';
 import muralikrishna_portfolio from '../assets/images/muralikrishna_portfolio.png';
 
-export const resume = "https://drive.google.com/file/d/1LdLmmjBcYLeTi5AOB511QiHBN5iSST-k/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1eWjUk0DM70HrT6NVgsDG5uGmYQsBid5a/view?usp=sharing";
 
 export const Bio = {
   name: "Prayag N",
