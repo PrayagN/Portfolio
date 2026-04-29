@@ -16,6 +16,8 @@ import ragProject from '../assets/images/rag_project.png';
 import alchemy from '../assets/images/alchemy.png';
 import employeeFilter from '../assets/images/employee_filter.png';
 import playonmeet from '../assets/images/playonmeet.png';
+import portfilio from '../assets/images/portfilio.png';
+import muralikrishna_portfolio from '../assets/images/muralikrishna_portfolio.png';
 
 export const resume = "https://drive.google.com/file/d/1LdLmmjBcYLeTi5AOB511QiHBN5iSST-k/view?usp=sharing";
 
@@ -343,6 +345,17 @@ export const projects = [
     category: "dynamic web app",
     github: "https://github.com/PrayagN/RAG-Flow-Frontend",
     webapp: "",
+  },
+  {
+    id: 15,
+    title: "Murali Krishna Portfolio",
+    date: "2025",
+    description: "A sleek, personal portfolio website designed for Murali Krishna to showcase his skills, projects, and professional experience.",
+    image: muralikrishna_portfolio,
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "static web app",
+    github: "https://github.com/PrayagN",
+    webapp: "https://murali-krishna-git-main-prayagns-projects.vercel.app/",
   },
   {
     id: 9,
