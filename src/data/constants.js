@@ -17,7 +17,8 @@ import alchemy from '../assets/images/alchemy.png';
 import employeeFilter from '../assets/images/employee_filter.png';
 import playonmeet from '../assets/images/playonmeet.png';
 import portfilio from '../assets/images/portfilio.png';
-import muralikrishna_portfolio from '../assets/images/muralikrishna_portfolio.png';
+import muralikrishna_portfolio from "../assets/images/muralikrishna_portfolio.png";
+import eatplek from "../assets/images/eatplek.png";
 
 export const resume = "https://drive.google.com/file/d/1eWjUk0DM70HrT6NVgsDG5uGmYQsBid5a/view?usp=sharing";
 
@@ -264,6 +265,27 @@ export const skills = [
   }
 ];
 export const projects = [
+  {
+    id: 16,
+    title: "EatPlek — Restaurant Table Reservation & Food Ordering Engine",
+    date: "2026",
+    description: "A secure, scalable RESTful API backend built with Node.js, Express, and MongoDB powering EatPlek—a platform enabling users to pre-order food, make restaurant table bookings, manage collaborative cart orders with friends, and process seamless online payments via PhonePe.",
+    image: eatplek,
+    tags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PhonePe SDK",
+      "Collaborative Cart",
+      "OneSignal",
+      "ImageKit & Sharp",
+      "Swagger UI",
+      "JWT & Security"
+    ],
+    category: "dynamic web app",
+    github: "",
+    webapp: "",
+  },
   {
     id: 14,
     title: "PlayOnMeet: Social Gaming Redefined",
