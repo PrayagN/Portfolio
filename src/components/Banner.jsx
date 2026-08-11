@@ -78,11 +78,9 @@ function Banner() {
                     </span>
                   </h1>
                   <p>
-                    Proactive Full Stack Developer with 2+ years of experience, building scalable web and mobile applications. Skilled in
-                    React, Node.js, and modern full-stack frameworks. Experienced in real-time communication, AI integration, and cloud
-                    deployment. Passionate about building fast, user-focused products that drive business growth and innovation.
+                   Full Stack \& Systems Engineer with 3 years of experience specializing in the Python (FastAPI) and React (TypeScript) ecosystems to architect secure, high-performance generative AI automation pipelines. Proven track record in building modular, node-based visual interfaces, scalable microservices, and enterprise RAG workflows for 65,000+ active users. Strong background in database optimization, system security, and deploying performant API contracts in fast-paced startup environments.
                   </p>
-                  <a
+                  {/* <a
                     href={resume}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -91,7 +89,7 @@ function Banner() {
                     <button className="tagline">
                       Check Resume <ArrowRightCircle size={25} />
                     </button>
-                  </a>
+                  </a> */}
 
                 </div>
               )}
