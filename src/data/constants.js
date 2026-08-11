@@ -244,7 +244,9 @@ export const skills = [
       { name: "Twilio", image: "https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" },
       { name: "OAuth 2.0", image: "https://i.pcmag.com/imagery/reviews/04syxCXYgOp2n7ORxuXtTVz-1..v1726696178.jpg" },
       { name: "ChromaDB", image: "https://ubos.tech/wp-content/uploads/2023/11/chroma.png" },
-      { name: "LiveKit", image: "https://avatars.githubusercontent.com/u/103309724?s=200&v=4" }
+      { name: "LiveKit", image: "https://avatars.githubusercontent.com/u/103309724?s=200&v=4" },
+      { name: "Swagger", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/swagger/swagger-original.svg" },
+      { name: "OneSignal", image: "https://cdn.worldvectorlogo.com/logos/onesignal.svg" }
     ]
   },
   {
