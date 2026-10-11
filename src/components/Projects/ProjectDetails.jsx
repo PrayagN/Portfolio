@@ -159,19 +159,42 @@ function ProjectDetails({ openModal, setOpenModal }) {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src={project?.image} />
+                    <Image
+                        src={project?.image}
+                        alt={`${project?.title} project overview`}
+                        loading="lazy"
+                    />
                     <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
+                    <Date>{project?.date}</Date>
                     <Tags>
-                        {project?.tags.map((tag) => (
-                            <Tag>{tag}</Tag>
+                        {project?.tags?.map((tag, index) => (
+                            <Tag key={index}>{tag}</Tag>
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
                     
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        {project?.github && (
+                            <Button
+                                dull
+                                href={project?.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`View source code for ${project?.title}`}
+                            >
+                                View Code
+                            </Button>
+                        )}
+                        {project?.webapp && (
+                            <Button
+                                href={project?.webapp}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`View live web application for ${project?.title}`}
+                            >
+                                View Live App
+                            </Button>
+                        )}
                     </ButtonGroup>
                 </Wrapper>
             </Container>

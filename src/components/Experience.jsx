@@ -47,7 +47,7 @@ const Experience = () => {
                             {experiences.map((exp, index) => (
                                 <div key={index} className="experience-item">
                                     <h3>{exp.role}</h3>
-                                    <h4>{exp.company} | {exp.location}</h4>
+                                    <p className="company-location">{exp.company} | {exp.location}</p>
                                     <span className="duration">{exp.period}</span>
                                     <p>{exp.description}</p>
                                     <ul>

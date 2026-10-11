@@ -51,18 +51,58 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
+const FooterNav = styled.nav`
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+const FooterNavLink = styled.a`
+  color: #b8b8b8;
+  font-size: 15px;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: #ffffff;
+  }
+`;
+
 function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
+        <FooterNav aria-label="Footer Navigation">
+          <FooterNavLink href="#home">Home</FooterNavLink>
+          <FooterNavLink href="#skills">Skills</FooterNavLink>
+          <FooterNavLink href="#services">Services</FooterNavLink>
+          <FooterNavLink href="#experience">Experience</FooterNavLink>
+          <FooterNavLink href="#projects">Projects</FooterNavLink>
+          <FooterNavLink href="#connect">Contact</FooterNavLink>
+        </FooterNav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={links.instgram} target="_blank">
+          <SocialMediaIcon
+            href={links.instgram}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram profile"
+          >
             <InstagramIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={links.github} target="_blank">
+          <SocialMediaIcon
+            href={links.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub profile"
+          >
             <GitHubIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={links.linkedin} target="_blank">
+          <SocialMediaIcon
+            href={links.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+          >
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>

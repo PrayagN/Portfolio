@@ -27,7 +27,7 @@ export const Wrapper = styled.div`
     }
 `;
 
-export const Title = styled.div`
+export const Title = styled.h2`
 font-size: 42px;
 text-align: center;
 font-weight: 600;

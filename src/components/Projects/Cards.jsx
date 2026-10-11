@@ -84,7 +84,7 @@ const Details = styled.div`
   gap: 0px;
   padding: 0px 2px;
 `;
-const Title = styled.div`
+const Title = styled.h3`
   font-size: 20px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
@@ -93,7 +93,6 @@ const Title = styled.div`
   max-width: 100%;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  overflow: hidden;
   text-overflow: ellipsis;
 `;
 
@@ -122,16 +121,21 @@ const Description = styled.div`
 const Cards = ({ project, setOpenModal }) => {
   return (
     <Card
-      key={project}
+      key={project?.id || project?.title}
       onClick={() => {
         setOpenModal({ state: true, project: project });
-        console.log("This code is executed when the card is clicked.");
       }}
     >
-      <Image src={project?.image} />
+      <Image
+        src={project?.image}
+        alt={`${project?.title} project preview`}
+        loading="lazy"
+        width="330"
+        height="180"
+      />
       <Tags>
         {project.tags?.map((tag, index) => (
-          <Tag>{tag}</Tag>
+          <Tag key={index}>{tag}</Tag>
         ))}
       </Tags>
       <Details>
@@ -139,7 +143,6 @@ const Cards = ({ project, setOpenModal }) => {
         <Date>{project?.date}</Date>
         <Description>{project.description}</Description>
       </Details>
-      {/* <Button>View More</Button> */}
     </Card>
   );
 };

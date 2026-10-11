@@ -24,7 +24,7 @@ gap: 12px;
 }
 `
 
-export const Title = styled.div`
+export const Title = styled.h2`
 font-size: 42px;
 text-align: center;
 font-weight: 600;
@@ -75,7 +75,7 @@ const Skill = styled.div`
 
 `
 
-const SkillTitle = styled.h2`
+const SkillTitle = styled.h3`
   font-size: 28px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
@@ -131,27 +131,33 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 1 year.
+        <Desc>
+          Here are technologies and tools I actively use across frontend, backend, AI systems, and cloud infrastructure over the past 3 years.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
+            <Skill key={skill.title}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
+                  <SkillItem key={item.name}>
+                    <SkillImage
+                      src={item.image}
+                      alt={`${item.name} logo`}
+                      loading="lazy"
+                      width="24"
+                      height="24"
+                    />
                     {item.name}
                   </SkillItem>
                 ))}
               </SkillList>
             </Skill>
           ))}
-
         </SkillsContainer>
       </Wrapper>
     </Container>
-  )
-}
+  );
+};
 
 export default Skills

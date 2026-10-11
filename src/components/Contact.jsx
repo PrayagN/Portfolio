@@ -65,7 +65,7 @@ function Contact() {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                   src={contactImg}
-                  alt="Contact Us"
+                  alt="Illustration for contacting Prayag N"
                 />
               )}
             </TrackVisibility>
@@ -86,6 +86,7 @@ function Contact() {
                           type="text"
                           name="name"
                           placeholder="Name"
+                          aria-label="Your Name"
                           required
                           ref={name}
                         />
@@ -96,22 +97,21 @@ function Contact() {
                           type="email"
                           required
                           placeholder="Email Address"
+                          aria-label="Your Email Address"
                           name="from_email"
                           ref={emailRef}
                         />
                       </Col>
-                      {/* <Col size={12} sm={6} className="px-1">
-                      <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
-                    </Col> */}
                       <Col size={12} className="px-1">
                         <textarea
                           rows="6"
                           placeholder="Message"
+                          aria-label="Your Message"
                           name="message"
                           ref={messageRef}
                           required
                         ></textarea>
-                        <button type="submit" className="button-33" disabled={loader}  >
+                        <button type="submit" className="button-33" disabled={loader} aria-label="Send message">
                           {loader ? "Sending..." : "Send"}
                         </button>
                       </Col>

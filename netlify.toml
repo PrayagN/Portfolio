@@ -1,4 +1,22 @@
 [[redirects]]
- from ='/*'
- to='/index.html'
- status=200
+  from = "https://www.prayagn.netlify.app/*"
+  to = "https://prayagn.netlify.app/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.prayagn.netlify.app/*"
+  to = "https://prayagn.netlify.app/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://prayagn.netlify.app/*"
+  to = "https://prayagn.netlify.app/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

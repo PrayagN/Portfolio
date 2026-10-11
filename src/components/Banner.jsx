@@ -13,7 +13,11 @@ function Banner() {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = [
+    "Full Stack Developer",
+    "FastAPI & Python Engineer",
+    "React & GenAI Architect"
+  ];
   const period = 2000;
 
   useEffect(() => {
@@ -65,32 +69,70 @@ function Banner() {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  {/* <span className="tagline">Welcome to my Portfolio</span> */}
-                  <h1>
-                    {`Hi! I'm Prayag`} <br />{" "}
-                    <span
-                      style={{ paddingLeft: "1rem" }}
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
-                    >
-                      <span className="wrap">{text}</span>
-                    </span>
-                  </h1>
-                  <p>
-                   Full Stack \& Systems Engineer with 3 years of experience specializing in the Python (FastAPI) and React (TypeScript) ecosystems to architect secure, high-performance generative AI automation pipelines. Proven track record in building modular, node-based visual interfaces, scalable microservices, and enterprise RAG workflows for 65,000+ active users. Strong background in database optimization, system security, and deploying performant API contracts in fast-paced startup environments.
-                  </p>
-                  {/* <a
-                    href={resume}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "none" }}
+                  <span className="tagline">Welcome to my Portfolio</span>
+                  <h1>Prayag N — Full Stack Developer &amp; Systems Engineer</h1>
+                  <div
+                    className="banner-subheading"
+                    style={{ fontSize: "32px", fontWeight: 700, margin: "16px 0 20px" }}
+                    aria-hidden="true"
                   >
-                    <button className="tagline">
-                      Check Resume <ArrowRightCircle size={25} />
-                    </button>
-                  </a> */}
-
+                    Hi! I'm{" "}
+                    <span className="txt-rotate">
+                      <span className="wrap">{text || "Full Stack Developer"}</span>
+                    </span>
+                  </div>
+                  <p>
+                   Full Stack &amp; Systems Engineer with 3 years of experience specializing in the Python (FastAPI) and React (TypeScript) ecosystems to architect secure, high-performance generative AI automation pipelines. Proven track record in building modular, node-based visual interfaces, scalable microservices, and enterprise RAG workflows for 65,000+ active users. Strong background in database optimization, system security, and deploying performant API contracts in fast-paced startup environments.
+                  </p>
+                  <div
+                    className="banner-cta-group"
+                    style={{
+                      display: "flex",
+                      gap: "16px",
+                      marginTop: "28px",
+                      flexWrap: "wrap",
+                      alignItems: "center",
+                    }}
+                  >
+                    <a
+                      href={resume}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none" }}
+                      aria-label="View Prayag N Resume"
+                    >
+                      <button
+                        className="tagline"
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "10px",
+                          cursor: "pointer",
+                          marginBottom: 0,
+                        }}
+                      >
+                        View Resume <ArrowRightCircle size={22} />
+                      </button>
+                    </a>
+                    <a
+                      href="#connect"
+                      style={{ textDecoration: "none" }}
+                      aria-label="Contact Prayag N"
+                    >
+                      <button
+                        className="navbar-connect"
+                        style={{
+                          padding: "10px 24px",
+                          fontSize: "18px",
+                          fontWeight: 600,
+                          borderRadius: "8px",
+                          color: "#fff",
+                        }}
+                      >
+                        Let’s Talk
+                      </button>
+                    </a>
+                  </div>
                 </div>
               )}
             </TrackVisibility>
@@ -104,7 +146,12 @@ function Banner() {
                   }
                   style={{ display: 'flex', justifyContent: 'center' }}
                 >
-                  <img src={hero} alt="Header Img" />
+                  <img
+                    src={hero}
+                    alt="Prayag N - Full Stack &amp; AI Systems Engineer"
+                    width="300"
+                    height="300"
+                  />
                 </div>
               )}
             </TrackVisibility>

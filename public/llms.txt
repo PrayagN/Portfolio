@@ -1,0 +1,50 @@
+# Prayag N — Full Stack Developer & AI Systems Engineer
+
+> Portfolio: https://prayagn.netlify.app/
+> GitHub: https://github.com/PrayagN
+> LinkedIn: https://www.linkedin.com/in/prayagn/
+> Resume: https://drive.google.com/file/d/1eWjUk0DM70HrT6NVgsDG5uGmYQsBid5a/view?usp=sharing
+
+## Professional Overview
+Prayag N is a Full Stack & Systems Engineer with 3+ years of experience specializing in the Python (FastAPI) and React (TypeScript) ecosystems. He architectures high-performance generative AI automation pipelines, modular node-based interfaces, and scalable microservices. His engineering work includes building production systems serving over 65,000 active users with low-latency APIs and robust real-time communication.
+
+## Core Technical Competencies
+- **Frontend Ecosystem:** React.js, React Native, TypeScript, Next.js, Remix, Redux Toolkit, Zustand, Expo, Tailwind CSS, Bootstrap, Material-UI.
+- **Backend & APIs:** Python (FastAPI), Node.js, Express.js, RESTful API architecture, Swagger/OpenAPI, WebSockets, Socket.IO.
+- **Artificial Intelligence & GenAI:** Enterprise RAG (Retrieval-Augmented Generation) workflows, Azure OpenAI, AnythingLLM, Vector Databases (ChromaDB), Prompt Engineering.
+- **Databases & Caching:** PostgreSQL, MongoDB, MySQL, Firebase, Redis.
+- **Cloud, DevOps & Tools:** Docker, Netlify, Render, Git, GitHub, Postman, Linux, OneSignal, LiveKit audio/video.
+- **Fintech & Payment Gateways:** PhonePe SDK, Stripe, Razorpay.
+
+## Key Projects & Production Systems
+1. **Aroundme App (Software Developer):**
+   - Scaled platform to 65,000+ downloads and achieved 42% engagement growth.
+   - Engineered real-time location-based features ('Shoutouts' and 'Chitchats') using Socket.IO.
+   - Integrated Google Maps, Mapbox, and Ola Maps for dynamic geolocation.
+   - Implemented LiveKit for low-latency real-time audio calls.
+
+2. **Go Shoppie (AI Shopping Assistant):**
+   - Co-created Shoppie, an AI-driven shopping assistant for D2C brands deployed on Shopify.
+   - Integrated AnythingLLM and Azure OpenAI for personalized product discovery and smart recommendations.
+   - Multi-platform plug-and-play support across Shopify, web, and WhatsApp.
+
+3. **EatPlek (Restaurant Reservation & Collaborative Ordering Engine):**
+   - Architected a scalable RESTful API backend using Node.js, Express, and MongoDB.
+   - Integrated real-time collaborative friend-cart ordering and PhonePe payment processing.
+   - Handled push notifications via OneSignal and automated image optimization via Sharp & ImageKit.
+
+4. **Enterprise GenAI & RAG Automation:**
+   - Designed node-based visual workflow automation pipelines connecting LLM inference with vector search and relational databases.
+
+## Services & Engineering Offerings
+- **Full-Stack Application Development:** Building production-grade web and mobile applications from concept to deployment.
+- **Generative AI & RAG Pipeline Architecture:** Connecting custom company knowledge bases with LLM models for intelligent agents, automated search, and chat.
+- **API & Microservice Engineering:** Designing clean, secure, and documented RESTful APIs in FastAPI or Node.js.
+- **Real-Time Systems:** WebSockets, chat engines, geolocation tracking, and low-latency audio/video streaming.
+- **Database & Performance Optimization:** Schema design, indexing, caching, and query performance tuning.
+
+## Contact Information
+- Website: https://prayagn.netlify.app/
+- LinkedIn: https://www.linkedin.com/in/prayagn/
+- GitHub: https://github.com/PrayagN
+- Contact Form: https://prayagn.netlify.app/#connect

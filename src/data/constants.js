@@ -19,6 +19,7 @@ import playonmeet from '../assets/images/playonmeet.png';
 import portfilio from '../assets/images/portfilio.png';
 import muralikrishna_portfolio from "../assets/images/muralikrishna_portfolio.png";
 import eatplek from "../assets/images/eatplek.png";
+import remix from "../assets/images/remix.jpeg";
 
 export const resume = "https://drive.google.com/file/d/1eWjUk0DM70HrT6NVgsDG5uGmYQsBid5a/view?usp=sharing";
 
@@ -39,10 +40,10 @@ export const Bio = {
 };
 
 export const SEOData = {
-  title: "Prayag N | Full Stack & MERN Stack Developer Portfolio",
-  description: "Portfolio of Prayag N, a Full Stack Developer specializing in MERN Stack (MongoDB, Express, React, Node.js). Explore my projects and skills in frontend and backend development.",
-  keywords: "Full Stack Developer, MERN Stack Developer, Frontend Developer, Backend Developer, Prayag N, Portfolio, React Developer, Node.js Developer, Web Development, India",
+  title: "Prayag N | Full Stack Developer – React, Node.js, FastAPI & AI",
+  description: "Portfolio of Prayag N, Full Stack & AI Systems Engineer specializing in React, Node.js, FastAPI, and GenAI. View my production projects and architecture.",
   url: "https://prayagn.netlify.app/",
+  image: "https://prayagn.netlify.app/og-image.png",
 };
 
 export const links =
@@ -215,7 +216,7 @@ export const skills = [
       // Added
       { name: "React Native", image: "https://reactnative.dev/img/header_logo.svg" },
       { name: "Next.js", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" },
-      { name: "Remix", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKU1nkPkLXDQoaT0hDUlLT6jDIJXA5d3cjGQ&s" },
+      { name: "Remix", image: remix },
       { name: "TypeScript", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
       { name: "Zustand", image: "https://avatars.githubusercontent.com/u/70919043?s=200&v=4" },
       { name: "Expo", image: "https://avatars.githubusercontent.com/u/12504344?s=200&v=4" },
@@ -232,18 +233,16 @@ export const skills = [
       { name: "MongoDB", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" },
       { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
       { name: "REST API", image: "https://www.vectorlogo.zone/logos/json/json-icon.svg" },
-      // Replaced broken
-      { name: "JWT", image: "https://avatars.githubusercontent.com/u/10998651?s=200&v=4" },
-      { name: "Socket.IO", image: "https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" },
-      // Added
+      { name: "JWT", image: jwt },
+      { name: "Socket.IO", image: socket },
       { name: "FastAPI", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" },
       { name: "Python", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
-      { name: "OpenAI API", image: "https://www.webfx.com/wp-content/uploads/2023/07/what-is-openai.png" },
+      { name: "OpenAI API", image: "https://cdn.worldvectorlogo.com/logos/openai-2.svg" },
       { name: "Stripe", image: "https://cdn.worldvectorlogo.com/logos/stripe-4.svg" },
       { name: "Razorpay", image: "https://cdn.worldvectorlogo.com/logos/razorpay.svg" },
       { name: "Twilio", image: "https://www.vectorlogo.zone/logos/twilio/twilio-icon.svg" },
-      { name: "OAuth 2.0", image: "https://i.pcmag.com/imagery/reviews/04syxCXYgOp2n7ORxuXtTVz-1..v1726696178.jpg" },
-      { name: "ChromaDB", image: "https://ubos.tech/wp-content/uploads/2023/11/chroma.png" },
+      { name: "OAuth 2.0", image: "https://cdn.worldvectorlogo.com/logos/oauth.svg" },
+      { name: "ChromaDB", image: "https://avatars.githubusercontent.com/u/104085449?s=200&v=4" },
       { name: "LiveKit", image: "https://avatars.githubusercontent.com/u/103309724?s=200&v=4" },
       { name: "Swagger", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/swagger/swagger-original.svg" },
       { name: "OneSignal", image: "https://cdn.worldvectorlogo.com/logos/onesignal.svg" }
@@ -258,11 +257,8 @@ export const skills = [
       { name: "Netlify", image: "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" },
       { name: "VS Code", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" },
       { name: "Postman", image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
-      // Replaced broken Render
-      { name: "Render", image: "https://pbs.twimg.com/profile_images/1735434212990169088/WoNsBQOA_400x400.jpg" },
+      { name: "Render", image: render },
       { name: "Figma", image: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg" },
-
-      // Added
     ]
   }
 ];

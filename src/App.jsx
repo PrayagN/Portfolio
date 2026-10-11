@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar"; // Correct the import to match the fil
 import "bootstrap/dist/css/bootstrap.min.css";
 import Banner from "./components/Banner";
 import Skills from "./components/Skills";
+import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/Projects/ProjectDetails";
@@ -23,12 +24,14 @@ function App() {
       <SEO
         title={SEOData.title}
         description={SEOData.description}
-        keywords={SEOData.keywords}
+        url={SEOData.url}
+        image={SEOData.image}
       />
       <NavBar />
       <ScrollButton />
       <Banner />
       <Skills />
+      <Services />
       <Experience />
       <Projects openModal={openModal} setOpenModal={setOpenModal} />
       {openModal.state &&
