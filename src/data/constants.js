@@ -264,6 +264,21 @@ export const skills = [
 ];
 export const projects = [
   {
+    id: 15,
+    title: "Murali Krishna: Product Designer Portfolio",
+    date: "2026",
+    description: "Designed and built a portfolio site for a senior product designer to showcase case studies, impact metrics, testimonials and creative work (sketches, photography). Multi-page structure with dedicated case-study pages, a metrics highlights section, a testimonial carousel and a clear contact/resume flow. Deployed on Vercel.",
+    image: muralikrishna_portfolio,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    category: "static web app",
+    github: "https://github.com/PrayagN",
+    webapp: "https://murali-krishna-portfolio.vercel.app/",
+  },
+  {
     id: 16,
     title: "EatPlek — Restaurant Table Reservation & Food Ordering Engine",
     date: "2026",
@@ -365,17 +380,6 @@ export const projects = [
     category: "dynamic web app",
     github: "https://github.com/PrayagN/RAG-Flow-Frontend",
     webapp: "",
-  },
-  {
-    id: 15,
-    title: "Murali Krishna Portfolio",
-    date: "2025",
-    description: "A sleek, personal portfolio website designed for Murali Krishna to showcase his skills, projects, and professional experience.",
-    image: muralikrishna_portfolio,
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "static web app",
-    github: "https://github.com/PrayagN",
-    webapp: "https://murali-krishna-git-main-prayagns-projects.vercel.app/",
   },
   {
     id: 9,
